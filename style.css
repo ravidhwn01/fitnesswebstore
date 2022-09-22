@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
+/*================================== navbar ============================= */
 .navbar {
     background-color: black;
     color: white;
@@ -13,7 +14,7 @@
 
 .navbar-brand {
     color: white;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
 }
 
 .navbar-brand :hover {
@@ -24,39 +25,137 @@ span {
     color: rgb(236, 83, 83);
     cursor: pointer;
 }
-.nav-item{
+
+.nav-item {
     padding: 30px;
 }
-.nav-link{
+
+.nav-link {
     color: white;
     text-transform: uppercase;
     font-family: sans-serif;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: rgb(236, 83, 83);
 }
-.d-flex{
+
+.d-flex {
     color: rgb(236, 83, 83);
 }
-.main{
-    background: linear-gradient( rgba(0,0, 0,0.4) ,rgba(0,0, 0,0.4) ),url(./images/maiGgym.jpg) no-repeat ;
+
+/* ===========================main====================== */
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(./images/maiGgym.jpg) no-repeat;
     background-size: cover;
     height: 110vh;
 }
-.main h1{
+
+.main h1 {
     font-size: 5rem;
     font-weight: 800;
 }
-.btn1{
+
+.btn1 {
     height: 55px;
     width: 140px;
     color: white;
     border: none;
-    background: linear-gradient(90deg,#f5634b 0% , #fe9418 100% );
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
     transition: 1s;
 }
-.btn1:hover{
-    background: linear-gradient(90deg,#dba11a 0% , #f5634b 100% );
+
+.btn1:hover {
+    background: linear-gradient(90deg, #dba11a 0%, #f5634b 100%);
     transition: all 1s;
 }
+
+/* ====================================== details ========================= */
+.details {
+    margin-top: -100px;
+   
+}
+
+.details h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.details a {
+    text-decoration: none;
+
+    color: rgb(236, 83, 83);
+}
+
+.back:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.back {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+
+.back::before {
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, #dba11a 0%, #f5634b 100%);
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.back:hover::before {
+    height: 100%;
+}
+.back:hover a{
+    color: white;
+}
+
+/* ================================= more sections ========================= */
+
+.more h2{
+    font-weight: 800;
+}
+.more p{
+    font-weight: lighter;
+}
+p{
+    font-size: 1.1rem;
+}
+
+/* ====================================== discover ================================ */
+.discover{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/womengym3.jpg) no-repeat;
+background-size: cover;
+width: 100%;
+
+}
+.discover h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
