@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand :hover {
+    color: white;
+}
+
+span {
+    color: rgb(236, 83, 83);
+    cursor: pointer;
+}
+.nav-item{
+    padding: 30px;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.nav-link:hover{
+    color: rgb(236, 83, 83);
+}
+.d-flex{
+    color: rgb(236, 83, 83);
+}
+.main{
+    background: linear-gradient( rgba(0,0, 0,0.4) ,rgba(0,0, 0,0.4) ),url(./images/maiGgym.jpg) no-repeat ;
+    background-size: cover;
+    height: 110vh;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.btn1{
+    height: 55px;
+    width: 140px;
+    color: white;
+    border: none;
+    background: linear-gradient(90deg,#f5634b 0% , #fe9418 100% );
+    transition: 1s;
+}
+.btn1:hover{
+    background: linear-gradient(90deg,#dba11a 0% , #f5634b 100% );
+    transition: all 1s;
+}
