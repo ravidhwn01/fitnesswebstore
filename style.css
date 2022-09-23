@@ -98,6 +98,9 @@ span {
     z-index: 1;
     overflow: hidden;
     transition: all 0.8s;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .back::before {
@@ -148,10 +151,8 @@ width: 100%;
     font-weight: 800;
     font-size: 2.8rem;
 }
-span .fas{
-    font-weight: 700;
-}
-.back:hover  span .fas{
+
+.back:hover h1 span .fas{
     color: white;
 }
 
