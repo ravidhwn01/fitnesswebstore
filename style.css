@@ -152,12 +152,34 @@ width: 100%;
     font-size: 2.8rem;
 }
 
-.back:hover h1 span .fas{
+.icons{
+    font-size: 2.5rem;
+}
+.back:hover  .icons{
     color: white;
 }
 
+.course{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.course .card{
+    border: none;
+}
 
+.btn2 {
+    height: auto;
+    width: 100%;
+    color: white;
+    border: none;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    transition: 1s;
+}
 
+.btn2:hover {
+    background: linear-gradient(90deg, #dba11a 0%, #f5634b 100%);
+    transition: all 1s;
+}
 
 
 
