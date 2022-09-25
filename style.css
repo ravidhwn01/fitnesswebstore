@@ -10,16 +10,23 @@
 .navbar {
     background-color: black;
     color: white;
+    
 }
 
 .navbar-brand {
     color: white;
     font-family: "Dancing Script", cursive;
+   
 }
-
+.navbar-brand h2{
+        color: white;
+}
 .navbar-brand :hover {
     color: white;
+   
+    
 }
+
 
 span {
     color: rgb(236, 83, 83);
