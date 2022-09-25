@@ -33,18 +33,21 @@ span {
     cursor: pointer;
 }
 
-.nav-item {
+.nav-item  {
     padding: 30px;
+    text-decoration: none;
 }
 
-.nav-link {
+.nav-link  {
     color: white;
     text-transform: uppercase;
     font-family: sans-serif;
+    
 }
 
 .nav-link:hover {
     color: rgb(236, 83, 83);
+    
 }
 
 .d-flex {
@@ -78,6 +81,18 @@ span {
     transition: all 1s;
 }
 
+@media screen and (max-width:525px) {
+    .main h1 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .btn1 {
+        height: 45px;
+        width: 80px;
+        
+    }
+
+  }
 /* ====================================== details ========================= */
 .details {
     margin-top: -100px;
@@ -150,10 +165,18 @@ width: 100%;
 
 }
 .discover h1{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2.8rem;
 }
 
+@media screen and (max-width:525px) {
+   
+    .btn1 {
+        font-size: 12px;
+        
+    }
+
+  }
 .services h1{
     font-weight: 800;
     font-size: 2.8rem;
@@ -188,9 +211,25 @@ width: 100%;
     transition: all 1s;
 }
 
+@media screen and (max-width:525px) {
+   
+    .btn2 {
+        font-size: 30px;
+        
+    }
 
+  }
 
-
+/* ========================= footer ====================== */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.footer h3:hover{
+    cursor: pointer;
+    color:rgb(236, 83, 83);
+}
 
 
 
